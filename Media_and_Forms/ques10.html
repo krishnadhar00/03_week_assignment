@@ -1,0 +1,25 @@
+<!-- Ques10: Create a registration form with fields for the users name, email address, password, and a checkbox to agree to the terms and conditions. Use the text input type for the name and email fields, the password input type for the password field, and the checkbox input type for the terms and conditions field. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="/register.js" method="get">
+        <br>
+        <label for="Username">Username</label>
+        <input type="text" id="Username" placeholder="Enter your name"><br>
+        <label for="email">Email</label>
+        <input type="text" name="email-id" id="email" placeholder="Enter your email id"><br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Enter the password"><br>
+        <input type="checkbox" name="checkbox" id="">
+        <label for="agree">Agree to the terms and conditions</label><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
